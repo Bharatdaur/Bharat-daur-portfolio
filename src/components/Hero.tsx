@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="floating-animation">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
-            <span className="gradient-text">Alex Chen</span>
+            <span className="gradient-text">Bharat Daur</span>
           </h1>
         </div>
         

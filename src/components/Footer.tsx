@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand & Description */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold gradient-text">Alex Chen</h3>
+            <h3 className="text-2xl font-bold gradient-text">Bharat Daur</h3>
             <p className="text-muted-foreground leading-relaxed">
               Full-stack developer passionate about creating beautiful, 
               functional web experiences that make a difference.
@@ -87,7 +87,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/50 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Alex Chen. All rights reserved.
+            © {new Date().getFullYear()} Bharat Daur. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center">
             Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> and lots of coffee

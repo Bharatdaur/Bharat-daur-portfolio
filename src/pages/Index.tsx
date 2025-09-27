@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   useEffect(() => {
     // Update document title and meta description for SEO
-    document.title = "Alex Chen - Full-Stack Developer Portfolio";
+    document.title = "Bharat Daur - Full-Stack Developer Portfolio";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

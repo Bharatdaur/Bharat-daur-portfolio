@@ -44,7 +44,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-2xl font-bold gradient-text">
-              Alex Chen
+              Bharat Daur
             </span>
           </div>
 
