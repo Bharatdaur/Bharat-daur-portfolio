@@ -5,7 +5,7 @@ const Footer = () => {
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:alex.chen@example.com", label: "Email" },
+    { icon: Mail, href: "mailto:bharatdaur123@gmail.com", label: "Email" },
   ];
 
   const quickLinks = [
@@ -67,18 +67,18 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-primary">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>San Francisco, CA</p>
+              <p>Indore, MP India</p>
               <a 
-                href="mailto:alex.chen@example.com"
+                href="mailto:bharatdaur123@gmail.com"
                 className="hover:text-primary transition-colors duration-300"
               >
-                alex.chen@example.com
+                bharatdaur123@gmail.com
               </a>
               <a 
-                href="tel:+15551234567"
+                href="tel:+919575562567"
                 className="hover:text-primary transition-colors duration-300"
               >
-                +1 (555) 123-4567
+                +91 9575562567
               </a>
             </div>
           </div>
