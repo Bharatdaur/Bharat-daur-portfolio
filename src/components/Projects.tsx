@@ -2,13 +2,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
+import ecommerceImg from "@/assets/project-ecommerce.jpg";
+import taskManagerImg from "@/assets/project-taskmanager.jpg";
+import weatherImg from "@/assets/project-weather.jpg";
+import analyticsImg from "@/assets/project-analytics.jpg";
 
 const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
       description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and secure payments.",
-      image: "/placeholder.svg",
+      image: ecommerceImg,
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       githubUrl: "#",
       liveUrl: "#",
@@ -16,7 +20,7 @@ const Projects = () => {
     {
       title: "Task Management App",
       description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/placeholder.svg",
+      image: taskManagerImg,
       technologies: ["Vue.js", "Socket.io", "Express", "PostgreSQL"],
       githubUrl: "#",
       liveUrl: "#",
@@ -24,7 +28,7 @@ const Projects = () => {
     {
       title: "Weather Dashboard",
       description: "Interactive weather dashboard with data visualization, location-based forecasts, and historical weather data analysis.",
-      image: "/placeholder.svg",
+      image: weatherImg,
       technologies: ["React", "D3.js", "Weather API", "Chart.js"],
       githubUrl: "#",
       liveUrl: "#",
@@ -32,7 +36,7 @@ const Projects = () => {
     {
       title: "Social Media Analytics",
       description: "Analytics platform for social media management with automated reporting, engagement tracking, and performance insights.",
-      image: "/placeholder.svg",
+      image: analyticsImg,
       technologies: ["Python", "Django", "React", "Celery", "Redis"],
       githubUrl: "#",
       liveUrl: "#",
